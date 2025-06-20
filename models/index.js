@@ -1,4 +1,4 @@
-const { Sequelize, DataTypes, Op } = require('sequelize');  // Make sure Op is imported
+const { Sequelize, DataTypes, Op } = require('sequelize');  
 const sequelize = require('../config/db');
 const Contact = require('./contact');
 
