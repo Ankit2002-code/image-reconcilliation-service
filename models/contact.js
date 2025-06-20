@@ -49,8 +49,8 @@ const Contact = sequelize.define('Contact', {
   paranoid: true,
   indexes: [
     {
-      fields: ['phone_number'] // Use actual column name here
-    },
+      fields: ['phone_number']
+    }, 
     {
       fields: ['email']
     },
